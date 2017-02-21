@@ -1,0 +1,21 @@
+{
+  "name": "file-metadata",
+  "version": "1.0.0",
+  "description": "revels the information about the size of file user has uploaded",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "file",
+    "upload",
+    "nodeJS",
+    "microservice"
+  ],
+  "author": "animsaj",
+  "license": "ISC",
+  "dependencies": {
+    "busboy": "^0.2.14"
+  }
+}

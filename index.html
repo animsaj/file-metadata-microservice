@@ -1,0 +1,26 @@
+<html>
+    <title>File Metadata Microservice</title>
+    <style>
+        body {
+            background-color: #222222; 
+            color: #FCFCFC; 
+            font-family: 'Inconsolata'; 
+            font-size: 24px;
+        }
+        form {
+            color:aqua;
+        }
+        input {
+            font-size: 18px;
+        }
+    </style>
+    <body>
+        <h1>Hello, from the File Metadata Microservice!</h1>
+        <p>You can submit a FormData object that includes a file upload.</p>
+        <p>When You submit something, You will receive the file size in bytes within the JSON response.</p>
+        <form method="POST" enctype="multipart/form-data">
+            <input type="file" name="filefield"><br><br>
+            <input type="submit" value="Upload">
+        </form>
+    </body>
+</html>
